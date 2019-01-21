@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	tree2 "github.com/weizhe0422/algorithm/tree"
+	tree2 "github.com/weizhe0422/AlgorithmAndDataStructure/tree"
 
 )
 
@@ -44,6 +44,6 @@ func main() {
 	tree.Inert(3)
 
 	//fmt.Println("PreOrder", tree.PreOrder())
-	fmt.Println("InOrder", tree.InOrder())
+	fmt.Println("InOrder", tree.InOrder2())
 
 }
